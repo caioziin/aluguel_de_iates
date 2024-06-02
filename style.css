@@ -1,0 +1,213 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: white;
+
+}
+
+#title{
+    background-color:#21272B;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+
+}
+#title #logo{
+    margin: 20px;
+}
+#title #logo img{
+    position: relative;
+    
+}
+
+#title #logo h1{
+    position: absolute;
+    top: 0;
+    margin-left: 65px;
+    color: white;
+}
+
+#links{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 50px;
+    margin-left: 80px;
+
+}
+#links ul{
+    width: 100%;
+}
+
+#links ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+   
+}
+#links ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-left: 40px;
+   
+}
+
+#links ul li a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -20px;
+    width: 2px;
+    background-color: white;
+}
+
+#links ul li a:hover{
+    color: blue;
+}
+
+#caixaTexto{
+
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+    width: 580px;
+    height: 280px;
+    padding: 25px;
+    background-color: rgba(54, 48, 48, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    right: 50px;
+    bottom: -70px;  
+    
+    
+    
+
+}
+
+#caixaTexto h2{
+    color: white;
+    font-size: 30px;
+  
+    
+}
+
+#intuitivo{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+   
+}
+
+#caixaTexto #intuitivo p{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+#columns{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    background-color: white;
+    height: 450px;
+    justify-items: center;
+    
+}
+
+.box{
+    width: 70%;
+    height: 100%;
+    margin-top: 20px;
+    
+}
+
+.box .destinos{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #1BB4E8;
+    color: white;
+    
+}
+
+.box .destinos img{
+
+    margin-right: 5px;
+}
+
+.box #imagem{
+    width: 100%;
+    height: 54.5%;
+    
+
+}
+
+#nossaFrota{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;    
+    height: 50px;
+    background-color: #C6B07F;
+    color: white;
+    
+}
+
+.box #nossaFrota img{
+    margin-right: 5px;
+
+}
+
+#grid-img{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-items: start;
+    height: 222px;
+    
+}
+
+#grid-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.paragrafo{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.2);
+    display: flex;
+    align-items: center;
+
+
+    
+}
+
+.paragrafo p{
+    margin-left: 20px;
+
+}
+    
+
+
+
